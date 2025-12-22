@@ -1,0 +1,44 @@
+name: Metrics
+on:
+  # 每天北京时间 0点 运行一次
+  schedule: [{cron: "0 16 * * *"}]
+  # 允许手动触发
+  workflow_dispatch:
+  # 每当 push 到 master/main 分支时触发
+  push: {branches: ["master", "main"]}
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          # 你的 GitHub Token
+          token: ${{ secrets.METRICS_TOKEN }}
+
+          # 基础设置
+          user: m0NESY0501
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Shanghai
+          
+          # 关键：开启私有仓库统计
+          committer_token: ${{ secrets.METRICS_TOKEN }}
+          repositories_affiliations: owner, collaborator, organization_member
+          
+          # 插件：语言分析 (包含私有)
+          plugin_languages: yes
+          plugin_languages_ignored: >-
+            html, css, tex, less, dockerfile, makefile, qmake, lex, cmake, shell,
+            gnuplot
+          plugin_languages_limit: 8
+          plugin_languages_sections: most-used
+          plugin_languages_details: bytes-size, percentage
+          
+          # 插件：甚至可以分析你的编码习惯（白天写还是晚上写）
+          plugin_habits: yes
+          plugin_habits_from: 200       # Use 200 events to compute habits
+          plugin_habits_days: 14        # Keep only events from last 14 days
+          plugin_habits_facts: yes      # Display facts section
+          plugin_habits_charts: yes     # Display charts section
