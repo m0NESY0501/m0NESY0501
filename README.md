@@ -44,7 +44,7 @@
 | Course | University | Topic | Status | My Solution | Tech |
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **CS50** | Harvard | CS Introduction |✅ Done| - | ![C](https://img.shields.io/badge/-C-black?logo=c) |
-| **CS61B** | UCB | Data Structure | ✅ Done | [📂 Repo](./link) | ![Java](https://img.shields.io/badge/-Java-black?logo=java) |
+| **CS61B** | UCB | Data Structure | ✅ Done | [📂 Repo](https://github.com/m0NESY0501/yyhcs61b_showcase) | ![Java](https://img.shields.io/badge/-Java-black?logo=java) |
 | **CS231n** | Stanford | Deep Learning | 🚀 In Progress | [📂 Repo](./link) | ![Python](https://img.shields.io/badge/-PyTorch-black?logo=pytorch) |
 
 💡Note: 为了遵守学术诚信 (Academic Integrity)，部分课程代码（如 CS61B）未完全公开。如需查看源码进行技术交流，请通过邮件联系我。
@@ -67,7 +67,7 @@
         <li>💡 <b>Highlight:</b> 实现了复杂的图遍历算法处理分支合并冲突。</li>
       </ul>
       <div align="center">
-        <a href="你的项目链接">
+        <a href="https://github.com/m0NESY0501/yyhcs61b_showcase">
           <img src="https://img.shields.io/badge/View_Code-black?style=flat-square&logo=github" />
         </a>
       </div>
@@ -84,7 +84,7 @@
         <li>💡 <b>Highlight:</b> 独特的伪随机数种子算法，支持保存/加载进度。</li>
       </ul>
       <div align="center">
-        <a href="你的项目链接">
+        <a href="https://github.com/m0NESY0501/yyhcs61b_showcase">
           <img src="https://img.shields.io/badge/View_Code-black?style=flat-square&logo=github" />
         </a>
       </div>
