@@ -1,57 +1,113 @@
-<!-- m0NESY0501 -->
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Hello%20World&fontSize=80&animation=fadeIn&fontAlignY=35&desc=Welcome%20to%20my%20coding%20playground&descAlignY=55&descAlign=50"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=220&section=header&text=Hi%20there,%20I'm%20m0NESY0501&fontSize=50&animation=fadeIn&fontAlignY=35&desc=Talk%20is%20cheap,%20show%20me%20the%20code.&descAlignY=65&descAlign=50"/>
+</div>
+<p align="center">
+  🔭 <b>北京邮电大学 (BUPT)</b> · 💻 <b>计算机科学 (CS)</b> · 🌱 <b>Deep Learning</b>
+</p>
+
+
+<div align="center">
+
+<!-- 社交链接：统一使用 Flat-Square 风格，颜色更协调 -->
+<a href="mailto:ygqghappy@outlook.com">
+  <img src="https://img.shields.io/badge/Email-ygqghappy-D14836?style=flat-square&logo=gmail&logoColor=white" alt="Email"/>
+</a>
+<a href="https://www.zhihu.com/people/35-28-91-62-43">
+  <img src="https://img.shields.io/badge/Zhihu-%E7%9F%A5%E4%B9%8E-0084FF?style=flat-square&logo=zhihu&logoColor=white" alt="Zhihu"/>
+</a>
+
 </div>
 
-<h1 align="center">Hi there, I'm m0NESY0501/yyh 👋</h1>
+---
 
-<p align="center">
-  🚀 <b>北京邮电大学 </b> · 💻 <b>计算机科学 </b> · 🌱 <b>AI</b>
-</p>
-
-<p align="center">
-  <em>"Talk is cheap. Show me the code."</em>
-</p>
+### 🛠️ Tech Stack & Arsenal
 
 <div align="center">
-  <!-- 社交链接，替换为你的链接 -->
-  <a href="mailto:ygqghappy@outlook.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://www.zhihu.com/people/35-28-91-62-43">
-    <img src="https://img.shields.io/badge/Blog-HEXO-blue?style=for-the-badge&logo=rss&logoColor=white" alt="Blog"/>
-  </a>
-  <a href="https://www.linkedin.com/in/你的ID/">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
+  <!-- 语言 -->
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <br/>
+  <!-- 工具/框架 -->
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
 </div>
 
 ---
 
 ### 📚 CS Self-Taught Journey (公开课修炼)
 
-这里记录我跟随世界顶尖大学课程的学习轨迹。所有的 Lab 和 Assignment 均独立完成。
+> ❝ 站在巨人的肩膀上。 ❞ 
+> 这里记录我跟随世界顶尖大学课程的学习轨迹。
 
-| Course | University | Topic | Status | My Solution |
-| :--- | :---: | :---: | :---: | :---: |
-| **CS61B** | UCB | Data Structure | ✅ Done | [📂 Repo](./link-to-repo) |
-| **CS231n** | Stanford | Deep Learning (CV) | 🚀 In Progress | [📂 Repo](./link-to-repo) |
+| Course | University | Topic | Status | My Solution | Tech |
+| :--- | :---: | :---: | :---: | :---: | :---: |
+| **CS50** | Harvard | CS Introduction |✅ Done| - | ![C](https://img.shields.io/badge/-C-black?logo=c) |
+| **CS61B** | UCB | Data Structure | ✅ Done | [📂 Repo](./link) | ![Java](https://img.shields.io/badge/-Java-black?logo=java) |
+| **CS231n** | Stanford | Deep Learning | 🚀 In Progress | [📂 Repo](./link) | ![Python](https://img.shields.io/badge/-PyTorch-black?logo=pytorch) |
 
-> 💡 **Note:** 为了遵守学术诚信(Academic Integrity)，部分课程代码链接仅仅设为展示仓库，如需查看源代码请联系我申请权限。
+💡Note: 为了遵守学术诚信 (Academic Integrity)，部分课程代码（如 CS61B）未完全公开。如需查看源码进行技术交流，请通过邮件联系我。
+
+<br/>
+
+### 🏆 Featured Projects (精选项目)
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3 align="center">🗂️ Gitlet</h3>
+      <p align="center">
+        <b>版本控制系统 (Java)</b>
+      </p>
+      <p>一个轻量级的分布式版本控制系统，实现了 Git 的核心功能。</p>
+      <ul>
+        <li>✨ <b>Features:</b> Init, Add, Commit, Branch, Merge, Checkout.</li>
+        <li>⚙️ <b>Tech:</b> Java, SHA-1 Hashing, Serialization.</li>
+        <li>💡 <b>Highlight:</b> 实现了复杂的图遍历算法处理分支合并冲突。</li>
+      </ul>
+      <div align="center">
+        <a href="你的项目链接">
+          <img src="https://img.shields.io/badge/View_Code-black?style=flat-square&logo=github" />
+        </a>
+      </div>
+    </td>
+    <td width="50%">
+      <h3 align="center">🌍 Build Your Own World</h3>
+      <p align="center">
+        <b>2D 随机世界生成引擎 (Java)</b>
+      </p>
+      <p>基于 CS61B 的大型实验，生成可探索的 2D 迷宫世界。</p>
+      <ul>
+        <li>✨ <b>Features:</b> 随机房间生成、实体交互、保存进度。</li>
+        <li>⚙️ <b>Tech:</b> Java, StdDraw Library.</li>
+        <li>💡 <b>Highlight:</b> 独特的伪随机数种子算法，支持保存/加载进度。</li>
+      </ul>
+      <div align="center">
+        <a href="你的项目链接">
+          <img src="https://img.shields.io/badge/View_Code-black?style=flat-square&logo=github" />
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### 🛠️ Project Highlights (精选项目)
+### 📊 GitHub Stats
 
-#### 1. [gitlet](项目链接)
-> 一个基于 java的分布式管理系统
-- **Role**: Full Stack Developer
-- **Tech**: ![Java](https://img.shields.io/badge/-Java-007396?style=flat-square&logo=java&logoColor=white)
-- **Feature**: 版本控制、SHA-1、Branch/Merge。。
+<div align="center">
+  <!-- 替换 username=你的GitHub用户名 -->
+  <img src="https://github-readme-stats.vercel.app/api?username=m0NESY0501&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Stats" height="180"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m0NESY0501&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Languages" height="180"/>
+</div>
 
-#### 2. [Build Your Own World](项目链接)
-> 一个简易的2D种子生成世界游戏。
-- **Tech**: ![Java](https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white) 
-- **Highlights**: 可以保存旧世界，加载新世界，满足命令行键盘双端交互。
+<!-- 贪吃蛇动画（可选，如果不想要可以删掉，需要配置 Action 才会动，否则是静态图） -->
+<!-- 详情参考: https://github.com/Platane/snk -->
+<!-- <div align="center">
+  <img src="https://github.com/你的ID/你的ID/blob/output/github-contribution-grid-snake.svg" />
+</div> -->
 
----
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
+</p>
