@@ -97,17 +97,20 @@
 ### 📊 GitHub Stats
 
 <div align="center">
-  <!-- 替换 username=你的GitHub用户名 -->
-  <img src="https://github-readme-stats.vercel.app/api?username=m0NESY0501&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Stats" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=m0NESY0501&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Languages" height="180"/>
+  <!-- 
+    解释：这里使用了相对路径引用。
+    前提：你的 Action 成功运行后，会在仓库根目录生成一个 github-metrics.svg 文件。
+    如果图片裂开了，说明 Action 还没跑完，或者还没生成文件，等几分钟刷新即可。
+  -->
+  <img src="./github-metrics.svg" alt="Metrics" width="100%">
 </div>
 
-<!-- 贪吃蛇动画（可选，如果不想要可以删掉，需要配置 Action 才会动，否则是静态图） -->
-<!-- 详情参考: https://github.com/Platane/snk -->
+<!-- 贪吃蛇动画（可选，如果不想要就删掉） -->
 <!-- <div align="center">
-  <img src="https://github.com/你的ID/你的ID/blob/output/github-contribution-grid-snake.svg" />
+  <img src="https://github.com/m0NESY0501/m0NESY0501/blob/output/github-contribution-grid-snake.svg" />
 </div> -->
 
+<!-- Footer 放在最最下面才好看 -->
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=60&section=footer"/>
 </p>
