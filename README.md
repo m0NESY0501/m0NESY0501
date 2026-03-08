@@ -87,18 +87,3 @@
 </table>
 
 ---
-
-### 📊 GitHub Stats
-
-<div align="center">
-  <img height="140" src="https://github-readme-stats.vercel.app/api?username=m0NESY0501&show_icons=true&hide_title=true&hide_border=true&count_private=true&include_all_commits=true&bg_color=00000000&title_color=2563eb&icon_color=2563eb&text_color=6b7280" />
-  <img height="140" src="https://github-readme-stats.vercel.app/api/top-langs/?username=m0NESY0501&layout=compact&hide_border=true&bg_color=00000000&title_color=2563eb&text_color=6b7280" />
-</div>
-
-<p align="center">
-  <sub>Focused on building strong fundamentals and research-ready engineering skills.</sub>
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f2937,100:111827&height=45&section=footer"/>
-</p>
