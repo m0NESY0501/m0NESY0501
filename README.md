@@ -28,7 +28,7 @@
 | :--- | :---: | :---: | :---: | :---: | :---: |
 | **CS50** | Harvard | CS Introduction | ✅ Done | - | ![C](https://img.shields.io/badge/-C-black?logo=c) |
 | **CS61B** | UCB | Data Structure | ✅ Done | [📂 Repo](https://github.com/m0NESY0501/yyhcs61b_showcase) | ![Java](https://img.shields.io/badge/-Java-black?logo=java) |
-| **CS231n** | Stanford | Deep Learning for CV | ✅ Done (A1/A2) | [📂 Repo](https://github.com/m0NESY0501/CS231n-Solutions) | ![Python](https://img.shields.io/badge/-PyTorch-black?logo=pytorch) |
+| **CS231n** | Stanford | Deep Learning for CV | 🟡 In Progress | [📂 Repo](https://github.com/m0NESY0501/CS231n-Solutions) | ![Python](https://img.shields.io/badge/-PyTorch-black?logo=pytorch) |
 
 💡 **Note:** 为了遵守学术诚信 (Academic Integrity)，部分课程代码（如 CS61B）未完全公开。如需查看源码进行技术交流，请通过邮件联系我。
 
@@ -71,11 +71,11 @@
     <td width="33.3%" valign="top">
       <h3 align="center">🧠 CS231n Solutions</h3>
       <p align="center"><b>Deep Learning for CV (Python)</b></p>
-      <p>完成 CS231n 2025 版 A1/A2，覆盖从 NumPy 到 PyTorch 的完整训练链路。</p>
+      <p>完成 CS231n 2025 版 Assignment 1 / 2，并完成 Assignment 3 的 Transformer Captioning 部分。</p>
       <ul>
-        <li>✨ <b>Features:</b> KNN/Softmax/FCN/CNN/BatchNorm/Dropout/RNN</li>
+        <li>✨ <b>Features:</b> KNN / Softmax / FCN / CNN / BatchNorm / Dropout / RNN / Transformer Captioning</li>
         <li>⚙️ <b>Tech:</b> Python, NumPy, PyTorch</li>
-        <li>💡 <b>Highlight:</b> Open-ended 训练 ResNet，测试集 71.74%</li>
+        <li>💡 <b>Highlight:</b> Open-ended 自定义 ResNet 测试集 71.74%，并完成 Transformer Captioning</li>
       </ul>
       <div align="center">
         <a href="https://github.com/m0NESY0501/CS231n-Solutions">
@@ -87,3 +87,21 @@
 </table>
 
 ---
+
+### ⚙️ Tech Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/-Python-000?style=flat-square&logo=python" />
+  <img src="https://img.shields.io/badge/-Java-000?style=flat-square&logo=openjdk" />
+  <img src="https://img.shields.io/badge/-C-000?style=flat-square&logo=c" />
+  <img src="https://img.shields.io/badge/-PyTorch-000?style=flat-square&logo=pytorch" />
+  <img src="https://img.shields.io/badge/-NumPy-000?style=flat-square&logo=numpy" />
+  <img src="https://img.shields.io/badge/-Git-000?style=flat-square&logo=git" />
+  <img src="https://img.shields.io/badge/-Linux-000?style=flat-square&logo=linux" />
+</p>
+
+---
+
+<div align="center">
+  <sub>Thanks for visiting — keep building. 🚀</sub>
+</div>
